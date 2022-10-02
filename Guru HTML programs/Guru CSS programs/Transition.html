@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transition</title>
+    <style>
+        img
+        {
+            margin: 25px;
+            -webkit-transition: width 2s, height 2s, -webkit-transform 7s, box-shdow 2s;
+        }
+        img:hover
+        {
+            -webkit-transform: rotate(20800deg);
+            height: 200px;
+            width: 200px;
+            box-shadow: 0px 0px 10px 20px pink;
+        }
+    </style>
+</head>
+<body>
+    <img id="img1" src="2.jpg" height="200" width="200">
+    <img id="img2" src="12.png" height="200" width="200">
+    <img id="img3" src="L.jpg" height="200" width="200">
+    <img id="img4" src="N.jpg" height="200" width="200">
+    <img id="img5" src="G.jpg" height="200" width="200">
+</body>
+</html>

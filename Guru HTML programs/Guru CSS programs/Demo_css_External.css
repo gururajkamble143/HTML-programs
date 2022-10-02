@@ -1,0 +1,26 @@
+p
+{
+    color: pink;
+    font-size: 25px;
+    background-image: url();
+    text-align: justify;
+    font-family: "Sofia", sans-serif;
+    text-decoration: underline;
+    text-transform: capitalize;
+    font-style: italic;
+}
+h1
+{
+    text-indent: 100px;
+    color: blueviolet;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 10px;
+}
+body
+{
+    background-image: url(images/932952.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}

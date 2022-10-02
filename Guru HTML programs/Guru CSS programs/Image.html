@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image_Demo</title>
+    <style type="text/css">
+        img
+        {
+            width: 300px;
+            height: 200px;
+        }
+        #img1
+        {
+            margin-left: 70px;
+            position: relative;
+            //opacity: 0.7;
+        }
+        #img2
+        {
+            margin-left: 70px;
+            position: relative;
+            opacity: 0.6;
+        }
+        #img3
+        {
+            margin-left: 70px;
+            position: relative;
+            opacity: 0.4;
+        }
+        #img1:hover
+        {
+            opacity: 0.5;
+            width: 400px;
+            height: 300px;
+        }
+
+    </style>
+</head>
+<body>
+    
+    <img src="N.jpg" id="img1">
+    <img src="G.jpg" id="img2">
+    <img src="L.jpg" id="img3">
+
+    <div style="border: 2px solid green;">
+        <p>Fixed Position</p>
+
+    </div>
+
+    <div style="border: 2px solid red; height: 300px; width: 400px;">
+        <p>Naruto-Uzumaki</p>
+        <div style="border: 2px solid blue; position: fixed;bottom: 100px; left: 280px;">
+            <p>Monkey-D-Luffy</p>
+        </div>
+    </div>
+
+</body>
+</html>
